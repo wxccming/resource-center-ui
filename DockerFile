@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER lzg_jiamu@163.com
+COPY dist /dist
+ADD ./nginx.conf /etc/nginx/nginx.conf
+

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "1",
+    "name": "Home",
+    "title": "首页",
+    "level": "1",
+    "path": "/home",
+    "component": "home/HomeView",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "122",
+    "name": "management",
+    "title": "工作台",
+    "level": "1",
+    "path": "/management",
+    "component": "management/managementview",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "132",
+    "name": "dispute",
+    "title": "纠纷数据汇总中心",
+    "level": "1",
+    "path": "/dispute",
+    "component": "dispute/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  
+
+  {
+    "id": "139",
+    "name": "WarningCenter",
+    "title": "纠纷智能预警中心",
+    "level": "1",
+    "path": "/WarningCenter",
+    "component": "WarningCenter/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "137",
+    "name": "resources",
+    "title": "调解资源",
+    "level": "1",
+    "path": "/resources",
+    "component": "resources/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "138",
+    "name": "JudgmentAnalysis",
+    "title": "研判分析",
+    "level": "1",
+    "path": "/JudgmentAnalysis",
+    "component": "JudgmentAnalysis/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+
+  {
+    "id": "142",
+    "name": "riskControl",
+    "title": "风险防控",
+    "level": "1",
+    "path": "/riskControl",
+    "component": "riskControl/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "143",
+    "name": "reportcenter",
+    "title": "报告中心",
+    "level": "1",
+    "path": "/reportcenter",
+    "component": "reportcenter/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "144",
+    "name": "backend",
+    "title": "后台管理",
+    "level": "1",
+    "path": "/backend",
+    "component": "backend/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "144",
+    "name": "microservices",
+    "title": "微服务",
+    "level": "1",
+    "path": "/microservices",
+    "component": "microservices/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+  {
+    "id": "150",
+    "name": "settings",
+    "title": "账号设置",
+    "level": "1",
+    "path": "/settings",
+    "component": "settings/index",
+    "redirect": null,
+    "menuShow": false,
+    "icon": null
+  },
+
+
+
+
+
+
+
+  {
+    "id": "2",
+    "name": "finePatrol",
+    "title": "任务管理",
+    "level": "1",
+    "props": null,
+    "path": "/task/finePatrol",
+    "component": "task/finePatrol/index",
+    "type": "menu",
+    "menuShow": true,
+    "icon": null,
+    "selectIcon": null,
+    "navShow": null
+  },
+
+
+  {
+    "id": "5",
+    "name": "achievement",
+    "title": "巡视管理",
+    "level": "1",
+    "path": "/achievement",
+    "component": "RouteView",
+    "redirect": "/achievement/inspectionPhotos",
+    "menuShow": true,
+    "icon": null,
+    "children": [
+      {
+        "id": "501",
+        "name": "PatrolPoint",
+        "title": "巡视点位管理",
+        "path": "/achievement/PatrolPoint",
+        "component": "achievement/PatrolPoint/index"
+      },
+      {
+        "id": "502",
+        "name": "analysispiv",
+        "title": "PIV分析",
+        "path": "/achievement/analysispiv",
+        "component": "achievement/analysispiv/index"
+      },
+      {
+        "id": "503",
+        "name": "analysisAi",
+        "title": "AI分析",
+        "path": "/achievement/analysisAi",
+        "component": "achievement/analysisAi/index"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "route",
+    "title": "航线管理",
+    "level": "1",
+    "props": null,
+    "path": "/route",
+    "component": "route/index",
+    "type": "menu",
+    "menuShow": true,
+    "icon": null,
+    "selectIcon": null,
+    "navShow": null
+  },
+
+  {
+    "id": "6",
+    "name": "device",
+    "title": "设备管理",
+    "level": "1",
+    "path": "/device",
+    "component": "RouteView",
+    "redirect": "/device/FinePatrol",
+    "menuShow": true,
+    "icon": null,
+    "children": [
+      {
+        "id": "601",
+        "name": "Drone",
+        "title": "无人机管理",
+        "path": "/device/drone",
+        "component": "device/drone/index"
+      },
+      {
+        "id": "602",
+        "name": "Nest",
+        "title": "机巢管理",
+        "path": "/device/nest",
+        "component": "device/nest/index"
+      },
+      {
+        "id": "603",
+        "name": "battery",
+        "title": "电池管理",
+        "path": "/device/battery",
+        "component": "device/battery/index"
+      },
+      {
+        "id": "604",
+        "name": "carry",
+        "title": "搭载设备管理",
+        "path": "/device/carry",
+        "component": "device/carry/index"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "statistics",
+    "title": "统计分析",
+    "level": "1",
+    "position": "right",
+    "props": null,
+    "path": "/statistics",
+    "component": "NavLayout",
+    "redirect": "/statistics/taskStatistics",
+    "type": "menu",
+    "menuShow": true,
+    "icon": null,
+    "selectIcon": null,
+    "navShow": null
+  },
+  {
+    "id": "8",
+    "name": "SystemSettings",
+    "title": "系统设置",
+    "level": "1",
+    "position": "right",
+    "props": null,
+    "path": "/SystemSettings",
+    "component": "RouteView",
+    "redirect": "/SystemSettings/Dictionaries",
+    "type": "menu",
+    "menuShow": null,
+    "icon": null,
+    "selectIcon": null,
+    "navShow": null,
+    "children": [
+      {
+        "id": "80301",
+        "name": "Team",
+        "title": "单位管理",
+        "level": "2",
+        "position": null,
+        "props": null,
+        "path": "/SystemSettings/Team",
+        "component": "SystemSettings/Team/Team",
+        "redirect": null,
+        "type": null,
+        "menuShow": null,
+        "icon": null,
+        "selectIcon": null,
+        "navShow": null,
+        "children": []
+      },
+      {
+        "id": "80302",
+        "name": "User",
+        "title": "人员管理",
+        "level": "2",
+        "position": null,
+        "props": null,
+        "path": "/SystemSettings/User",
+        "component": "SystemSettings/User/User",
+        "redirect": null,
+        "type": null,
+        "menuShow": null,
+        "icon": null,
+        "selectIcon": null,
+        "navShow": null,
+        "children": []
+      },
+      {
+        "id": "80201",
+        "name": "Role",
+        "title": "角色管理",
+        "level": "2",
+        "position": null,
+        "props": null,
+        "path": "/SystemSettings/Role",
+        "component": "SystemSettings/Role/Role",
+        "redirect": null,
+        "type": null,
+        "menuShow": null,
+        "icon": null,
+        "selectIcon": null,
+        "navShow": null,
+        "children": []
+      },
+      {
+        "id": "80101",
+        "name": "Dictionaries",
+        "title": "字典库管理",
+        "level": "2",
+        "position": null,
+        "props": null,
+        "path": "/SystemSettings/Dictionaries",
+        "component": "SystemSettings/Dictionaries/Dictionaries",
+        "type": null,
+        "menuShow": null,
+        "icon": null,
+        "selectIcon": null,
+        "navShow": null,
+        "children": []
+      },
+      {
+        "id": "80102",
+        "name": "DefectLibrary",
+        "title": "缺陷库管理",
+        "level": "2",
+        "position": null,
+        "props": null,
+        "path": "/SystemSettings/DefectLibrary",
+        "component": "SystemSettings/DefectLibrary/DefectLibrary",
+        "type": null,
+        "menuShow": null,
+        "icon": null,
+        "selectIcon": null,
+        "navShow": null,
+        "children": []
+      },
+
+      {
+        "id": "804",
+        "name": "UserActivity",
+        "title": "系统日志",
+        "level": "2",
+        "position": null,
+        "props": null,
+        "path": "/SystemSettings/UserActivity",
+        "component": "SystemSettings/UserActivity/UserActivity",
+        "redirect": null,
+        "type": null,
+        "menuShow": null,
+        "icon": null,
+        "selectIcon": null,
+        "navShow": null,
+        "children": []
+      }
+    ]
+  }
+]

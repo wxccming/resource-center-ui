@@ -1,0 +1,14 @@
+.liglobe-measure {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    z-index: 1000;
+    background: #10111394;
+}
+
+.liglobe-measure-item {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    cursor: pointer;
+}

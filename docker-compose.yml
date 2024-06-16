@@ -1,0 +1,13 @@
+version: "3.1"
+services:
+  pub_web:
+    container_name: pub_web2222
+    build:
+      context: ../xinhua_web
+      dockerfile: DockerFile
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "8080:8080"
+    # env_file:
+    #   - web-variabies.env

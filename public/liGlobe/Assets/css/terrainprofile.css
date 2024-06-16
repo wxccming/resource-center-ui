@@ -1,0 +1,54 @@
+.liglobe-profile{
+    position: absolute;
+    top: 50px;
+    width: 80%;
+    height: 40%;
+    left: 50px;
+    z-index: 1000;
+    background:rgba(90,180,180,0.85);
+}
+
+.liglobe-profile-drag{
+    width: 100%;
+    height: 30px;
+    background: #dcdcdc;
+    cursor: move;
+}
+
+.liglobe-profile-close{
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.minSmall{
+    position: absolute;
+    right: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.maxLarge{   
+    position: absolute;
+    left: 150px;
+    bottom: 20px; 
+    padding: 3px 8px;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.liglobe-profile-close:hover, .minSmall:hover{
+    color: blue;
+}
+
+.liglobe-profile-chart {
+    width: 100%;
+    height: calc(100% - 30px);    
+}

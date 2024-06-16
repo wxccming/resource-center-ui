@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--  <link rel="icon" href="<%= BASE_URL %>favicon.ico">-->
+    <link rel="stylesheet" href="./liglobe/style.css">
+  <title>湖北新华教育服务平台·资源管理后台</title>
+  <!-- <script src="https://map.sgcc.com.cn/maps?v=3.0.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.93.0/build/three.min.js"></script> -->
+  <!-- <script src="http://map-hb.sgcc.com.cn"></script> -->
+
+  <script src="/config.js"></script>
+  <style>
+    @media (max-width: 1919px) and (min-width: 768px) {
+
+      /* html{
+                  zoom:80%;
+                } */
+      body {
+        /*zoom: 0.81 !important;*/
+        -moz-transform: scale(1);
+        -moz-transform-origin: 0 0;
+      }
+
+     /* #map,
+      .echarts-zoom-fit {
+        zoom: 1.24 !important;
+        -moz-transform: scale(1);
+        -moz-transform-origin: 0 0;
+      }*/
+
+      @-ms-viewport {
+        width: 1920px;
+        height: 1080px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script src="./liGlobe/cesium/Cesium.js"></script>
+<script src="./liGlobe/liGlobe.umd.js"></script>
+<!-- <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script> -->
+<script src="./xlsx.full.min.js"></script>
+
+</html>
